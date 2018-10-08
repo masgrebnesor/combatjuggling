@@ -27,7 +27,7 @@
 </table>
 </body>
 <script>
-    $.get("http://localhost:5000/", function (data) {
+    $.get("http://combat-juggling.herokuapp.com/", function (data) {
         for(let row in data) {
             let tuple = data[row];
              $("#main-table").append("<tr style='background-color:" +
